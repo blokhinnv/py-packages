@@ -16,4 +16,6 @@ conda install -c plotly plotly=5.7.0
 pip install -U kaleido
 pip install --upgrade orjson
 pip install statsmodels
+conda install datashader
+pip install pyarrow
 ```
