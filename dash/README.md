@@ -14,8 +14,5 @@ TODO:
 
 ## Настройка окружения
 ```
-pip install dash
-pip install jupyter-dash
-pip install networkx
-pip install Flask-Caching
+pip install dash jupyter-dash networkx Flask-Caching dash-canvas matplotlib dash-cytoscape
 ```
