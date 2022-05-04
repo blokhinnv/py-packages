@@ -7,11 +7,6 @@ Dash - это оригинальный фреймворк с низким уро
 
 Поскольку приложения Dash просматриваются в веб-браузере, Dash по своей сути является кроссплатформенным и мобильным.
 
-TODO:
-- dash cytoscape
-- dash canvas
-- dash bootstrap
-
 ## Настройка окружения
 ```
 pip install dash jupyter-dash networkx Flask-Caching dash-canvas matplotlib dash-cytoscape dash-bootstrap-components
