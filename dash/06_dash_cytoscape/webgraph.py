@@ -86,7 +86,7 @@ app = Dash(
     __name__,
     external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 )
-nodes, edges = fb_graph()
+nodes, edges = web_graph()
 elements = nodes + edges
 
 styles = {
@@ -142,4 +142,4 @@ app.layout = html.Div(
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=True, port=8052)
